@@ -1,0 +1,376 @@
+sleep 609
+collection L3 100 fade
+sleep 1
+collection L1 100 fade
+sleep 5318
+collection L1 0 fade
+sleep 16
+collection L3 0 fade
+sleep 512
+collection L2 100 fade
+sleep 5863
+collection L2 0 fade
+sleep 720
+collection L3 100 fade
+sleep 3
+collection L1 100 fade
+sleep 5756
+collection L3 0 fade
+sleep 3
+collection L1 0 fade
+sleep 261
+collection L2 100 fade
+sleep 9463
+collection L2 0 fade
+sleep 120
+collection L1 100 fade
+sleep 2791
+collection L1 0 fade
+sleep 3
+collection L2 100 fade
+sleep 3228
+collection L2 0 fade
+sleep 4
+collection L3 100 fade
+sleep 3035
+collection L3 0 fade
+sleep 4
+collection L4 100 fade
+sleep 2940
+collection L4 0 fade
+sleep 4
+collection L3 100 fade
+sleep 2235
+collection L3 0 fade
+sleep 160
+collection L1 100 fade
+sleep 5103
+collection L1 0 fade
+sleep 1584
+collection L2 100 fade
+sleep 4103
+collection L2 0 fade
+sleep 2136
+collection L3 100 fade
+sleep 2831
+collection L4 100 fade
+sleep 2712
+collection L4 0 fade
+sleep 72
+collection L2 100 fade
+sleep 23
+collection L3 0 fade
+sleep 1951
+collection L3 100 fade
+sleep 3328
+collection L3 0 fade
+sleep 23
+collection L2 0 fade
+sleep 1456
+collection L1 100 fade
+sleep 4759
+collection L1 0 fade
+sleep 968
+collection L2 100 fade
+sleep 4847
+collection L2 0 fade
+sleep 1992
+collection L3 100 fade
+sleep 2647
+collection L4 100 fade
+sleep 2255
+collection L4 0 fade
+sleep 72
+collection L2 100 fade
+sleep 2071
+collection L3 0 fade
+sleep 448
+collection L1 100 fade
+sleep 2367
+collection L2 0 fade
+sleep 176
+collection L1 0 fade
+sleep 616
+collection L1 100 fade
+sleep 807
+collection L2 100 fade
+sleep 208
+collection L1 0 fade
+sleep 408
+collection L3 100 fade
+sleep 95
+collection L2 0 fade
+sleep 527
+collection L4 100 fade
+sleep 96
+collection L3 0 fade
+sleep 623
+collection L4 0 fade
+sleep 5
+collection L1 100 fade
+sleep 546
+collection L2 100 fade
+sleep 24
+collection L1 0 fade
+sleep 743
+collection L3 100 fade
+sleep 40
+collection L2 0 fade
+sleep 824
+collection L4 100 fade
+sleep 39
+collection L3 0 fade
+sleep 711
+collection L1 100 fade
+sleep 32
+collection L4 0 fade
+sleep 655
+collection L2 100 fade
+sleep 48
+collection L1 0 fade
+sleep 719
+collection L3 100 fade
+sleep 104
+collection L2 0 fade
+sleep 696
+collection L4 100 fade
+sleep 39
+collection L3 0 fade
+sleep 767
+collection L1 100 fade
+sleep 56
+collection L4 0 fade
+sleep 792
+collection L2 100 fade
+sleep 23
+collection L1 0 fade
+sleep 751
+collection L3 100 fade
+sleep 40
+collection L2 0 fade
+sleep 696
+collection L4 100 fade
+sleep 48
+collection L3 0 fade
+sleep 703
+collection L1 100 fade
+sleep 32
+collection L4 0 fade
+sleep 823
+collection L2 100 fade
+sleep 40
+collection L1 0 fade
+sleep 703
+collection L3 100 fade
+sleep 64
+collection L2 0 fade
+sleep 719
+collection L4 100 fade
+sleep 48
+collection L3 0 fade
+sleep 663
+collection L1 100 fade
+sleep 56
+collection L4 0 fade
+sleep 696
+collection L1 0 fade
+sleep 5
+collection L2 100 fade
+sleep 777
+collection L3 100 fade
+sleep 72
+collection L2 0 fade
+sleep 799
+collection L4 100 fade
+sleep 31
+collection L3 0 fade
+sleep 727
+collection L1 100 fade
+sleep 32
+collection L4 0 fade
+sleep 744
+collection L2 100 fade
+sleep 39
+collection L1 0 fade
+sleep 711
+collection L3 100 fade
+sleep 64
+collection L2 0 fade
+sleep 728
+collection L4 100 fade
+sleep 56
+collection L3 0 fade
+sleep 727
+collection L1 100 fade
+sleep 40
+collection L4 0 fade
+sleep 703
+collection L2 100 fade
+sleep 80
+collection L1 0 fade
+sleep 632
+collection L3 100 fade
+sleep 39
+collection L2 0 fade
+sleep 807
+collection L4 100 fade
+sleep 56
+collection L3 0 fade
+sleep 751
+collection L1 100 fade
+sleep 7
+collection L4 0 fade
+sleep 752
+collection L1 0 fade
+sleep 16
+collection L2 100 fade
+sleep 631
+collection L3 100 fade
+sleep 64
+collection L2 0 fade
+sleep 672
+collection L4 100 fade
+sleep 72
+collection L3 0 fade
+sleep 776
+collection L1 100 fade
+sleep 71
+collection L4 0 fade
+sleep 575
+collection L2 100 fade
+sleep 40
+collection L1 0 fade
+sleep 807
+collection L3 100 fade
+sleep 48
+collection L2 0 fade
+sleep 775
+collection L4 100 fade
+sleep 48
+collection L3 0 fade
+sleep 719
+collection L4 0 fade
+sleep 6
+collection L1 100 fade
+sleep 761
+collection L2 100 fade
+sleep 152
+collection L1 0 fade
+sleep 544
+collection L3 100 fade
+sleep 47
+collection L2 0 fade
+sleep 807
+collection L4 100 fade
+sleep 112
+collection L3 0 fade
+sleep 647
+collection L1 100 fade
+sleep 48
+collection L4 0 fade
+sleep 752
+collection L2 100 fade
+sleep 87
+collection L1 0 fade
+sleep 560
+collection L3 100 fade
+sleep 95
+collection L2 0 fade
+sleep 807
+collection L4 100 fade
+sleep 56
+collection L3 0 fade
+sleep 711
+collection L1 100 fade
+sleep 48
+collection L4 0 fade
+sleep 863
+collection L2 100 fade
+sleep 24
+collection L1 0 fade
+sleep 511
+collection L3 100 fade
+sleep 48
+collection L2 0 fade
+sleep 759
+collection L4 100 fade
+sleep 31
+collection L3 0 fade
+sleep 712
+collection L1 100 fade
+sleep 39
+collection L4 0 fade
+sleep 752
+collection L1 0 fade
+sleep 7
+collection L2 100 fade
+sleep 824
+collection L3 100 fade
+sleep 24
+collection L2 0 fade
+sleep 711
+collection L4 100 fade
+sleep 40
+collection L3 0 fade
+sleep 647
+collection L1 100 fade
+sleep 24
+collection L4 0 fade
+sleep 879
+collection L1 0 fade
+sleep 144
+collection L2 100 fade
+sleep 609
+collection L3 100 fade
+sleep 38
+collection L2 0 fade
+sleep 647
+collection L4 100 fade
+sleep 72
+collection L3 0 fade
+sleep 3408
+collection L4 0 fade
+sleep 101247
+collection L1 100 fade
+sleep 4775
+collection L1 0 fade
+sleep 1264
+collection L2 100 fade
+sleep 4751
+collection L2 0 fade
+sleep 2144
+collection L3 100 fade
+sleep 2431
+collection L4 100 fade
+sleep 2664
+collection L3 0 fade
+sleep 8
+collection L4 0 fade
+sleep 224
+collection L2 100 fade
+sleep 1927
+collection L2 0 fade
+sleep 72
+collection L3 100 fade
+sleep 3096
+collection L3 0 fade
+sleep 2151
+collection L1 100 fade
+sleep 4063
+collection L1 0 fade
+sleep 1208
+collection L2 100 fade
+sleep 4615
+collection L2 0 fade
+sleep 2071
+collection L3 100 fade
+sleep 2608
+collection L3 0 fade
+sleep 239
+collection L4 100 fade
+sleep 2511
+collection L3 100 fade
+sleep 4639
+collection L4 0 fade
+sleep 15
+collection L3 0 fade

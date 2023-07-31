@@ -1,0 +1,125 @@
+﻿<Window x:Class="HAG_HomeLights.MainWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HAG_HomeLights"
+             mc:Ignorable="d" 
+             WindowStartupLocation="CenterScreen"
+             Height="950" Width="1125" AllowsTransparency="True" WindowStyle="None">
+    <Window.Background>
+        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/HausvonObenR.png" Stretch="Uniform"/>
+    </Window.Background>
+
+    <StackPanel Orientation="Vertical">
+
+        <Canvas x:Name="CanvasImage" Background="Transparent" Width="1125" Height="790">
+
+            <Canvas x:Name="CanvasImageLights" Width="1125" Height="790">
+                <Canvas.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Lampe löschen" Click="DeleteLampOnCanvas" />
+                        <MenuItem Header="Lampe editieren" Click="EditLampOnCanvas" />
+
+                    </ContextMenu>
+                </Canvas.ContextMenu>
+            </Canvas>
+            
+        </Canvas>
+
+        <Canvas x:Name="NixImage" Width="1125" Height="17">
+
+
+        </Canvas>
+
+        <Canvas x:Name="CanvasSettings" Background="Transparent" Width="1125" Height="133">
+            <Grid Width="1125">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                
+                <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="0">
+
+
+                    <StackPanel Orientation="Vertical" Margin="30,5,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Opacity="0.7" FontSize="30" Text="{Binding Path=HAGProjectInfo.Name}"></TextBlock>
+                            <TextBlock Opacity="0.7" FontSize="30" Text="  "></TextBlock>
+
+                            <TextBlock x:Name="ProjectSettings" ContextMenuService.ShowOnDisabled="True" Opacity="0.5" Padding="0,5,0,0" FontSize="20" FontFamily="Segoe MDL2 Assets" Text="&#xE700;">
+                                <TextBlock.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem Header="Speichern" />
+                                        <MenuItem Header="Speichern unter..." />
+                                        <MenuItem Header="Projekt laden" />
+                                    </ContextMenu>
+                                </TextBlock.ContextMenu>
+                            </TextBlock>
+                        </StackPanel>
+                        <TextBlock Opacity="0.5" FontSize="16" Text="{Binding Path=HAGProjectInfo.Description}"></TextBlock>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Opacity="0.4" FontSize="12" Text="Erstellt: "></TextBlock>
+                            <TextBlock Opacity="0.4" FontSize="12" Text="{Binding Path=HAGProjectInfo.CreatedString}"></TextBlock>
+                            <TextBlock Opacity="0.4" FontSize="12" Text=" / Geändert: "></TextBlock>
+                            <TextBlock Opacity="0.4" FontSize="12" Text="{Binding Path=HAGProjectInfo.UpdatedString}"></TextBlock>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="0,15,0,0" Opacity="0.7" FontSize="20" Text="{Binding Path=HAGProjectInfo.InstalledLights}"></TextBlock>
+                            <TextBlock Margin="0,15,0,0" Opacity="0.7" FontSize="20" Text=" Lampen - "></TextBlock>
+                            <TextBlock Margin="0,15,0,0" Opacity="0.7" FontSize="20" Text="{Binding Path=HAGProjectInfo.Groups}"></TextBlock>
+                            <TextBlock Margin="0,15,0,0" Opacity="0.7" FontSize="20" Text=" Gruppen - "></TextBlock>
+                            <TextBlock Margin="0,15,0,0" Opacity="0.7" FontSize="20" Text="{Binding Path=HAGProjectInfo.HAGFiles}"></TextBlock>
+                            <TextBlock Margin="0,15,0,0" Opacity="0.7" FontSize="20" Text=" HAGs-Files"></TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Right" Margin="0,7,10,0">
+                    <Image Source="pack://siteoforigin:,,,/Resources/Seperator.png" Height="124"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2" Orientation="Vertical" HorizontalAlignment="Right" Margin="0,7,10,0">
+                    <TextBlock Opacity="0.7" FontSize="20" Text="Lampen-Konfiguration"></TextBlock>
+                    <TextBlock Margin="0,15,0,0" Opacity="0.7" FontSize="16" Text="Lampengröße"></TextBlock>
+                    <Slider Margin="5,15,5,0" Minimum="10" Maximum="50" Value="{Binding Path=HAGLampInfo.Width, Mode=TwoWay}" TickPlacement="BottomRight" TickFrequency="5" />
+                </StackPanel>
+                
+                <StackPanel Grid.Column="3" Orientation="Vertical" HorizontalAlignment="Right" Margin="0,7,10,0">
+                    <Image Source="pack://siteoforigin:,,,/Resources/Seperator.png" Height="124"/>
+                </StackPanel>
+                <StackPanel Grid.Column="4" Orientation="Vertical" HorizontalAlignment="Right" Margin="0,7,10,0">
+                    <TextBlock Opacity="0.7" FontSize="20" Text="Lampen-Konfiguration"></TextBlock>
+                    <TextBlock Margin="0,15,0,0" Opacity="0.7" FontSize="16" Text="Lampengröße"></TextBlock>
+                    <Slider Margin="5,15,5,0" Minimum="10" Maximum="50" Value="{Binding Path=HAGLampInfo.Width, Mode=TwoWay}" TickPlacement="BottomRight" TickFrequency="5" />
+                </StackPanel>
+
+                <StackPanel Grid.Column="5" Orientation="Vertical" HorizontalAlignment="Right" Margin="0,7,10,0">
+                    <Image Source="pack://siteoforigin:,,,/Resources/Seperator.png" Height="124"/>
+                </StackPanel>
+                <StackPanel Grid.Column="6" Orientation="Vertical" HorizontalAlignment="Right" Margin="0,7,30,0">
+                    <TextBlock Opacity="0.7" FontSize="20" Text="Lampen-Konfiguration"></TextBlock>
+                    <StackPanel Grid.Column="6" Margin="5,15,5,0" Orientation="Horizontal">
+                        <TextBlock Opacity="0.7" FontSize="16" Text="Größe"></TextBlock>
+                        <Slider Margin="12,0,0,0" Width="136" Minimum="10" Maximum="50" Value="{Binding Path=HAGLampInfo.Width, Mode=TwoWay}" TickPlacement="BottomRight" TickFrequency="5" />
+                    </StackPanel>
+                    <StackPanel Grid.Column="6" Margin="5,15,5,0" Orientation="Horizontal">
+                        <TextBlock Opacity="0.7" FontSize="16" Text="Gruppe" Margin="0,3,0,0"></TextBlock>
+                        <TextBox FontSize="16" Foreground="DimGray" Padding="5,2,5,5" Margin="12,0,0,0" FontWeight="Bold" Width="120" Background="LightGray" TextChanged="GroupTextEdit" Text="{Binding Path=HAGLampInfo.Group, Mode=TwoWay}" /> 
+
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Canvas>
+
+    </StackPanel>
+
+
+</Window>
