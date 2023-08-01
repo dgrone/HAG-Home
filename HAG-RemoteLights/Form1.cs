@@ -344,11 +344,11 @@ namespace HAGRemoteLights
                             textBox1.Text = lFileName;
                             lFound = true;
                         }
-                        else if (lFileName.Contains(".mp3"))
+                        /* else if (lFileName.Contains(".mp3"))
                         {
                             lShowMessage = true;
                             textBox1.Text = lFileName;
-                        }
+                        }*/
 
                     }
                 }
